@@ -22,12 +22,17 @@ A chave de acesso ao Web Service é obrigatória e deve ser passada na URL junto
 Exemplo: ws <comando> <parâmetro(s)>
 
  [version ou -v] ................... Exibe a versão do console CLI
+ 
  config ............................ Exibe informações do arquivo ini do web service
+ 
  cep ............................... Exibe os dados do cep
+ 
 
    Parâmetro(s):
+   
    num cep ......................... Número do cep
-
+   
    Exemplo de uso:
+   
    ws cep 54360080
 
