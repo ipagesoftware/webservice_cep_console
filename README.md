@@ -19,28 +19,13 @@ A chave de acesso ao Web Service é obrigatória e deve ser passada na URL junto
 
 # Comandos
 
-
-C:\xampp\htdocs\ipagesoftware.com.br\2019\ipage.com.br\ws\exemplos\cli>ws
-   ___                               ____
-  |_ _| _ __    __ _   __ _   ___   / ___| ___  _ __
-   | | | '_ \  / _` | / _` | / _ \ | |    / _ \| '_ \
-   | | | |_) || (_| || (_| ||  __/ | |___|  __/| |_) |
-  |___|| .__/  \__,_| \__, | \___|  \____|\___|| .__/
-       |_|            |___/                    |_|   WS CLI 1.0.137
-
-
-
-Exemplo: ws <comando>
-
+Exemplo: ws <comando> <parâmetro(s)>
 
  [version ou -v] ................... Exibe a versão do console CLI
-
  config ............................ Exibe informações do arquivo ini do web service
-
  cep ............................... Exibe os dados do cep
 
    Parâmetro(s):
-
    num cep ......................... Número do cep
 
    Exemplo de uso:
