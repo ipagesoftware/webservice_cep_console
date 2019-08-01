@@ -8,9 +8,11 @@ A que se destina este Web Service? Este Web Service tem por finalidade consultar
 No arquivo ws.ini você poderá configurar a chave de acesso do Web Service e o link do Web Service. O resultado da consulta será exibido no console e um arquivo será gerado no formato definido.
 
 [DADOS]
+
 KEY={chave}
 
 [WEBSITE]
+
 LINK_CEP=https://www.ipage.com.br/ws/v1/cep/
 
 
