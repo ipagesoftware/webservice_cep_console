@@ -9,6 +9,7 @@ No arquivo ws.ini você poderá configurar a chave de acesso do Web Service e o 
 
 [DADOS]
 KEY={chave}
+
 [WEBSITE]
 LINK_CEP=https://www.ipage.com.br/ws/v1/cep/
 
