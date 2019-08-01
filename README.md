@@ -15,5 +15,34 @@ KEY={chave}
 
 LINK_CEP=https://www.ipage.com.br/ws/v1/cep/
 
-
 A chave de acesso ao Web Service é obrigatória e deve ser passada na URL junto com o CEP, formato de retorno e deve ser compatível com o esperado pelo Web Service. Caso não possua uma chave de acesso, solicite no site da ipage: https://www.ipage.com.br
+
+# Comandos
+
+
+C:\xampp\htdocs\ipagesoftware.com.br\2019\ipage.com.br\ws\exemplos\cli>ws
+   ___                               ____
+  |_ _| _ __    __ _   __ _   ___   / ___| ___  _ __
+   | | | '_ \  / _` | / _` | / _ \ | |    / _ \| '_ \
+   | | | |_) || (_| || (_| ||  __/ | |___|  __/| |_) |
+  |___|| .__/  \__,_| \__, | \___|  \____|\___|| .__/
+       |_|            |___/                    |_|   WS CLI 1.0.137
+
+
+
+Exemplo: ws <comando>
+
+
+ [version ou -v] ................... Exibe a versão do console CLI
+
+ config ............................ Exibe informações do arquivo ini do web service
+
+ cep ............................... Exibe os dados do cep
+
+   Parâmetro(s):
+
+   num cep ......................... Número do cep
+
+   Exemplo de uso:
+   ws cep 54360080
+
